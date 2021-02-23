@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Recipes{% endblock %}
+
+{% block head_extra %}
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+<link rel="stylesheet" href="{% static 'css/recipe.css' %}">
+<link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+{% endblock %}
+
+{% block content %}
+<div class="resultDisp">
+  <div class="imgCardCont roundCorners" >
+    <img class="recipeImg roundCorners" src="{% static 'chicken_wings.jpg' %}" width="225" height="400" >
+  </div>
+  <div class="descriptDisp roundCorners whiteBkg bodyFont">
+    <h1 class="headFont centerText">Crispy Buffalo Chicken Wings</h1>
+    <h2><span style="color: #3366ff;"><strong>Ingredients: </strong></span></h2>
+    <ul>
+      <li>CHICKEN WINGS 2 Kg (4 pounds) chicken wings cut into drumettes and flats</li>
+      <li>1 tablespoon aluminum-free baking powder (NOT baking soda)</li>
+      <li>1/2 teaspoon salt 2 teaspoons garlic powder Pinch of cracked pepper</li>
+      <li>BUFFALO SAUCE: 1/4 cup unsalted butter, melted 1/2 cup Frank's Original Red Hot Sauce 1-2 tablespoons honey, white sugar or brown sugar (adjust to suit your tastes)</li>
+      <li>BLUE CHEESE DIP: 1/2 cup crumbled blue cheese softened 1/3 cup sour cream 1/4 cup mayonnaise 2 cloves garlic minced 1 tablespoon lemon juice Pinch of salt Pinch of cracked black pepper</li>
+      <li>TO SERVE: Ranch dressing Blue cheese dressing (RECIPE AS ABOVE) for serving Celery sticks for serving</li>
+    </ul>
+    <h2><span style="color: #3366ff;"><strong>Instructions: </strong></span></h2>
+    <ul>
+      <li>Adjust oven rack to upper-middle position and preheat oven to 450&deg;F (230&deg;C).</li>
+      <li>Line a rimmed baking sheet with aluminum foil and set a heat-proof wire rack inside.</li>
+      <li>Pat dry chicken wings liberally with paper towels, squeezing out as much moisture as you can.</li>
+      <li>Transfer them to a large bowl.</li>
+      <li>In a small bowl, combine the baking powder, garlic powder, salt and pepper together, whisking well to combine, and sprinkle the mixture over the wings.</li>
+      <li>Toss wings through the baking powder mixture until evenly coated.</li>
+      <li>Arrange on rack, leaving about 1-inch of space between each wing. Bake for 30 minutes; flip and continue to cook until crisp and golden brown, (about 20-30 minutes longer), until golden browned and crispy. While wings are cooking, whisk together hot sauce, butter and sugar.</li>
+      <li>Toss wings through the sauce to evenly coat.</li>
+      <li>Serve wings immediately with blue cheese dressing or ranch dressing, and celery sticks.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="resultDisp">
+  <div class="imgCardCont roundCorners" >
+    <img class="recipeImg roundCorners" src="{% static 'shrimp.jpg' %}" width="225" height="400" >
+  </div>
+  <div class="descriptDisp roundCorners whiteBkg bodyFont">
+    <h1 class="headFont centerText">Honey Garlic Shrimp</h1>
+    <h2><span style="color: #3366ff;">Ingredients: </span></h2>
+    <ul>
+      <li>1/3 cup honey</li>
+      <li>1/4 cup soy sauce (I use reduced sodium)</li>
+      <li>1 Tablespoon jarred minced garlic or 2 teaspoons fresh*</li>
+      <li>optional: 1 teaspoon minced fresh ginger 1 lb medium uncooked shrimp, peeled &amp; deveined 2 teaspoons olive oil</li>
+      <li>optional: chopped green onion for garnish</li>
+    </ul>
+    <h2><span style="color: #3366ff;">Instructions:</span></h2>
+    <ul>
+      <li>Whisk the honey, soy sauce, garlic, and ginger (if using) together in a medium bowl. Place shrimp in a large zipped-top bag or tupperware.</li>
+      <li>Pour 1/2 of the marinade mixture on top, give it all a shake or stir, then allow shrimp to marinate in the refrigerator for 15 minutes or for up to 8-12 hours.</li>
+      <li>Cover and refrigerate the rest of the marinade for step 3. (Time-saving tip: while the shrimp is marinating, I steamed broccoli and microwaved some quick brown rice.)</li>
+      <li>Heat olive oil in a skillet over medium-high heat.</li>
+      <li>Place shrimp in the skillet. (Discard used marinade.) Cook shrimp on one side until pink&ndash; about 45 seconds&ndash; then flip shrimp over. Pour in remaining marinade and cook it all until shrimp is cooked through, about 1 minute more.</li>
+      <li>Serve shrimp with cooked marinade sauce and a garnish of green onion. The sauce is excellent on brown rice and steamed veggies on the side.</li>
+    </ul>
+    <p>&nbsp;</p>
+  </div>
+</div>
+{% endblock %}

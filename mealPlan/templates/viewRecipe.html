@@ -1,0 +1,90 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script type="text/JavaScript" src="recipe.js"></script> -->
+    <!-- <script type="text/JavaScript" src="searchbar.js"></script> -->
+    <title>Recipes</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{% static 'css/normalize.css' %}">
+    <!-- <link rel="stylesheet" href="css/base.css"> -->
+    <link rel="stylesheet" href="{% static 'css/recipe.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon.ico' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/home">Meal-Plan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/home">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/recipe">Recipes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/about">About Us</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+    <div class="resultDisp">
+        <div class="imgCardCont roundCorners" >
+            <!-- <img class="recipeImg roundCorners" src="{% static 'shrimp.jpg' %}" width="225" height="400" > -->
+            <img class="recipeImg roundCorners" src="{% static "" %}{{img}}" width="225" height="400" >
+        </div>
+        <div class="descriptDisp roundCorners whiteBkg bodyFont">
+            <!-- <h1 class="headFont centerText">Honey Garlic Shrimp</h1> -->
+            <h1 class="headFont centerText">{{meal_name}}</h1>
+        {% for ingredient in ingredient_file %}
+          <p>{{ingredient}}</p>
+        {% endfor %}
+            <!-- <p>Ingredients:
+1/3 cup honey
+1/4 cup soy sauce (I use reduced sodium)
+1 Tablespoon jarred minced garlic or 2 teaspoons fresh*
+optional: 1 teaspoon minced fresh ginger
+1 lb medium uncooked shrimp, peeled & deveined
+2 teaspoons olive oil
+optional: chopped green onion for garnish </p>
+            <p>Instructions:
+Whisk the honey, soy sauce, garlic, and ginger (if using) together in a medium bowl.
+Place shrimp in a large zipped-top bag or tupperware. Pour 1/2 of the marinade mixture on top, give it all a shake or stir, then allow shrimp to marinate in the refrigerator for 15 minutes or for up to 8-12 hours. Cover and refrigerate the rest of the marinade for step 3. (Time-saving tip: while the shrimp is marinating, I steamed broccoli and microwaved some quick brown rice.)
+Heat olive oil in a skillet over medium-high heat. Place shrimp in the skillet. (Discard used marinade.) Cook shrimp on one side until pink– about 45 seconds– then flip shrimp over. Pour in remaining marinade and cook it all until shrimp is cooked through, about 1 minute more.
+Serve shrimp with cooked marinade sauce and a garnish of green onion. The sauce is excellent on brown rice and steamed veggies on the side.</p> -->
+<button type="button" class="btn btn-sm btn-outline-secondary" onclick="location.href = '/editRecipe/?img={{img}}&ingredient={{ingredient_file_path}}'">Edit Recipe</button>      
+</div>
+    </div>
+    
+</body>
+
+</html>

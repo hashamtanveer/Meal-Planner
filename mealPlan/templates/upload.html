@@ -1,0 +1,30 @@
+{% extends "uploadHome.html" %}
+
+{% block content %}
+  <h2>Upload</h2>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <!-- <label for="meal-picture"><b>Meal Picture</b></label> -->
+    <input type="file" name="document">
+    <!-- <button type="submit">Upload file</button> -->
+    <hr>
+
+    <label for="meal-name"><b>Meal Name</b></label>
+    <textarea type="text" name="meal-name" class="form-control"></textarea>
+    <hr>
+
+    <label for="meal-ingredients"><b>Meal Ingredients</b></label>
+    <textarea type="text" name="meal-ingredients" class="form-control"></textarea>
+    <hr>
+
+    <label for="meal-description"><b>Meal Description</b></label>
+    <textarea type="text" name="meal-description" class="form-control"></textarea>
+    <hr>
+
+    <button type="submit">Upload file</button>
+  </form>
+  {% if url %}
+    <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
+  {% endif %}
+{% endblock %}
+<!--Source Code: https://github.com/sibtc/django-upload-example/tree/master/mysite -->

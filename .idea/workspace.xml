@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/kathy" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c7eb7b3d-477a-4c3e-873f-5aa3be69b7c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mealPlan/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mealPlan/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="2748dfbd-1f68-40d8-9902-7d31422c1716" />
+  <component name="ProjectId" id="1l53HLfKzmfXv73vOeOLXCxy8SJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.MS SQL Server" />
+  </component>
+  <component name="RunManager">
+    <configuration name="meal-plan123" type="Python.DjangoServer" factoryName="Django server">
+      <module name="meal-plan" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mealPlan.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7eb7b3d-477a-4c3e-873f-5aa3be69b7c0" name="Default Changelist" comment="" />
+      <created>1606873036020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606873036020</updated>
+      <workItem from="1606873037122" duration="52000" />
+      <workItem from="1606873103966" duration="4000" />
+      <workItem from="1606873129401" duration="2087000" />
+      <workItem from="1606935680065" duration="699000" />
+      <workItem from="1606958449042" duration="836000" />
+      <workItem from="1607029627333" duration="717000" />
+      <workItem from="1607030482044" duration="178000" />
+      <workItem from="1607036876373" duration="657000" />
+      <workItem from="1610934597681" duration="517000" />
+      <workItem from="1611351651250" duration="3295000" />
+      <workItem from="1611535519908" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/kathy" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="598" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606958513829">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="598" y="119" key="#com.intellij.execution.impl.EditConfigurationsDialog/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1606958513829" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom" timestamp="1611535832341">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1090" height="158" key="GridCell.Tab.0.bottom/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1607030478381" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535832341" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center" timestamp="1611535832339">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1090" height="158" key="GridCell.Tab.0.center/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1607030478380" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535832339" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left" timestamp="1611535832338">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1090" height="158" key="GridCell.Tab.0.left/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1607030478380" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535832338" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right" timestamp="1611535832340">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1090" height="158" key="GridCell.Tab.0.right/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1607030478380" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535832340" />
+    <state width="243" height="457" key="HiddenNamespacesPopup" timestamp="1606958510439">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="243" height="457" key="HiddenNamespacesPopup/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1606958510439" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1611535700232">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535700232" />
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611533364825">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611533364825" />
+    <state x="699" y="208" width="598" height="490" key="find.popup" timestamp="1606874706522">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="699" y="208" width="598" height="490" key="find.popup/-3840.104.1920.1057/-1920.63.1920.1057/0.23.1792.1097@0.23.1792.1097" timestamp="1606874706522" />
+    <state x="644" y="280" key="git4idea.branch.GitSmartOperationDialog" timestamp="1611535814060">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="644" y="280" key="git4idea.branch.GitSmartOperationDialog/-3840.343.1920.1080/-1920.81.1920.1080/0.0.1792.1120@0.0.1792.1120" timestamp="1611535814060" />
+  </component>
+</project>

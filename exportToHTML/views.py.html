@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>views.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #0033b3;}
+.s1 { color: #080808;}
+.s2 { color: #008080; font-weight: bold;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+views.py</font>
+</center></td></tr></table>
+<pre><span class="s0">from </span><span class="s1">django.shortcuts </span><span class="s0">import </span><span class="s1">render</span>
+<span class="s0">from </span><span class="s1">django.core.files.storage </span><span class="s0">import </span><span class="s1">FileSystemStorage</span>
+<span class="s0">from </span><span class="s1">django.urls </span><span class="s0">import </span><span class="s1">reverse_lazy</span>
+
+
+<span class="s0">def </span><span class="s1">login(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;login.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">home(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;home.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">forgetPassword(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;forgetPassword.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">recipe(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;recipe.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">about(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;about.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">register(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;register.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">uploadHome(request):</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">&quot;uploadHome.html&quot;</span><span class="s1">)</span>
+
+<span class="s0">def </span><span class="s1">upload(request):</span>
+    <span class="s1">context = {}</span>
+    <span class="s0">if </span><span class="s1">request.method == </span><span class="s2">'POST'</span><span class="s1">:</span>
+        <span class="s1">uploaded_file = request.FILES[</span><span class="s2">'document'</span><span class="s1">]</span>
+        <span class="s1">fs = FileSystemStorage()</span>
+        <span class="s1">name = fs.save(uploaded_file.name, uploaded_file)</span>
+        <span class="s1">context[</span><span class="s2">'url'</span><span class="s1">] = fs.url(name)</span>
+    <span class="s0">return </span><span class="s1">render(request, </span><span class="s2">'upload.html'</span><span class="s1">, context)</span>
+</pre>
+</body>
+</html>
